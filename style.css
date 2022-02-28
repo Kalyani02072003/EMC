@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+
+/* .center-main{
+    background-color:blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:4rem;
+    height: 500px;
+    max-width:1300px;
+} */
+body{
+    background-image: url("./MacBook\ Pro\ 16_\ -\ 1.png");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.container .empty{
+    height: 0px;
+    width:0px;
+    margin:70px;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* background-color: red; */
+    transform: translate(-50%, -31.5%);
+    height: 700px;
+    width:1250px;
+    /* background-image: url("./MacBook\ Pro\ 16_\ -\ 1.png"); */
+    
+}
+
+
+
+.container .search {
+    float:right;
+    margin:60px;
+    width:250px;
+    text-align:left;
+    padding:10px;
+    border-radius:15px;
+    background-color:grey;
+}
+.container article{
+    padding:70px;
+    
+}
+
+.container .content {
+    padding:70px;
+    display:flex;
+    justify-content:space-between;
+
+}
+.container .content h3{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+.container .content p{
+    font-size: 15px;
+    max-width: 320px;
+    padding-top: 20px;
+    color:white;
+}
+
+.container .btn{
+    background-color: rgb(71, 212, 71);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    margin-left:140px;
+    bottom:40px;
+    position:relative;
+    color:white;
+}
+.container .right-side nav{
+    display: flex;
+    
+}
+
+
+.container .right-side nav li{
+    text-decoration: none;
+    list-style: none;
+    position:relative;
+    font-size: 20px;
+    margin-top:0;
+    transform:translate(1050px,-400px);
+    width:100px;
+    text-align: right;
+    padding:30px;
+    color:black;
+}
+.container .right-side nav li a{
+    text-decoration: none;
+}
+
+.container .right-side nav li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    top: 60px;
+    left: 0;
+    background-color: rgb(7, 119, 7);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .container .right-side nav li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .container .right-side .logo{
+      height:50px;
+      width:50px;
+      display:flex;
+      justify-content: space-evenly;
+      right:430px;
+      position:absolute;
+      transform: translate(10px,20px);
+  }
+  .container .right-side .fb{
+    margin-right:50px;
+    margin-left: 50px;
+  }
+  .container .right-side .insta{
+    height:70px;
+    margin-right:50px;
+    transform: translate(10px,-10px);
+  }
+  .container .right-side .twitter{
+    margin-left:50px;
+    transform: translate(10px,0px);
+  }
